@@ -158,44 +158,60 @@ nav a {
     height:280px;
   }
 }
-/* ================================= */
-/* ============ ABOUT ============== */
-/* ================================= */
+/* =============================== */
+/* =========== ABOUT ============= */
+/* =============================== */
 
 .about{
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:120px;
-  padding:120px 12%;
-  min-height:85vh;
+  gap:90px;
+  padding:80px 8%;
+  min-height:90vh;
 }
 
-/* Ảnh bên trái */
+/* ẢNH TRÒN */
 .about-left img{
   width:420px;
   height:420px;
+  border-radius:50%;
   object-fit:cover;
-  border-radius:40px;
-  box-shadow:0 30px 60px rgba(0,0,0,0.35);
+  border:25px solid #f2c200;
+  box-shadow:0 30px 60px rgba(0,0,0,0.4);
 }
 
-/* Nội dung bên phải */
+/* CỘT PHẢI */
 .about-right{
-  max-width:650px;
+  display:flex;
+  flex-direction:column;
+  gap:40px;
+  width:650px;
 }
 
-.about-right h1{
-  font-family:'Kavoon', cursive;
-  font-size:110px;
-  color:#f2d28b;
-  margin-bottom:40px;
-  line-height:1;
+/* Ô vàng */
+.about-box{
+  background:#f2d28b;
+  padding:35px 40px;
+  border-radius:35px;
+  color:#162a5c;
 }
 
-.about-right p{
-  font-size:20px;
-  line-height:1.8;
-  color:#f2d28b;
-  margin-bottom:40px;
+/* Ô dưới cùng dài hơn */
+.about-box.wide{
+  padding:45px;
+}
+
+/* Tiêu đề trong box */
+.about-box h3{
+  margin:0 0 15px 0;
+  font-size:24px;
+  font-weight:bold;
+}
+
+/* Nội dung */
+.about-box p{
+  margin:0;
+  line-height:1.6;
+  font-size:16px;
 }
