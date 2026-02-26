@@ -16,9 +16,9 @@ body::before {
   width: 100%;
   height: 100%;
 
-  background: url("https://raw.githubusercontent.com/Journal-of-Speculative-Worldbuilding/The-lore/main/business%20card.png") no-repeat center center / cover;
+  background: url("https://github.com/z-Fourth/port/blob/main/Untitled_Artwork.png?raw=true") no-repeat center center / cover;
 
-  filter: blur(8px);
+  filter: blur(0px);
   transform: scale(1.1); /* tránh viền trắng khi blur */
   z-index: -1;
 }
