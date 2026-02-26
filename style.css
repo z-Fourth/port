@@ -2,9 +2,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 
-  background:
-    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url("https://raw.githubusercontent.com/Journal-of-Speculative-Worldbuilding/The-lore/refs/heads/main/business%20card.png");
+  background: url("https://raw.githubusercontent.com/Journal-of-Speculative-Worldbuilding/The-lore/refs/heads/main/business%20card.png")
+              no-repeat center center/cover;
+  min-height:100vh;
 
   background-size: cover;
   background-position: center;
