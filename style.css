@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
   color: white;
   position: relative;
   min-height: 100vh;
@@ -80,4 +80,47 @@ nav a {
 .gallery img {
   width: 100%;
   border-radius: 15px;
+}
+/* ===== HOME SECTION ===== */
+
+.home{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:left;
+  padding:100px 60px;
+}
+
+.home-content{
+  max-width:600px;
+}
+
+/* Tiêu đề Estelle */
+.home h1{
+  font-family:'Kavoon', cursive;
+  font-size:100px;
+  margin:0 0 20px 0;
+  color:#f2d28b;
+}
+
+/* Đoạn mô tả */
+.intro{
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:30px;
+}
+
+/* Nút More */
+.btn{
+  background:#f2d28b;
+  padding:12px 28px;
+  border-radius:12px;
+  text-decoration:none;
+  color:#162a5c;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.05);
 }
