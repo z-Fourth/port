@@ -1,17 +1,27 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-
-  background: url("https://raw.githubusercontent.com/Journal-of-Speculative-Worldbuilding/The-lore/main/business%20card.png")
-              no-repeat center center/cover;
-  min-height:100vh;
-
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   color: white;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
+/* Background layer */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: url("https://raw.githubusercontent.com/Journal-of-Speculative-Worldbuilding/The-lore/main/business%20card.png") no-repeat center center / cover;
+
+  filter: blur(8px);
+  transform: scale(1.1); /* tránh viền trắng khi blur */
+  z-index: -1;
+}
 /* NAV */
 nav {
   display: flex;
