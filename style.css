@@ -158,50 +158,44 @@ nav a {
     height:280px;
   }
 }
-/* ===================================== */
-/* ============ ABOUT PAGE ============= */
-/* ===================================== */
+/* ================================= */
+/* ============ ABOUT ============== */
+/* ================================= */
 
-.about-container{
+.about{
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:70px;
-  padding:80px 10%;
+  gap:120px;
+  padding:120px 12%;
   min-height:85vh;
 }
 
-/* Ảnh tròn lớn bên trái */
-.about-image img{
+/* Ảnh bên trái */
+.about-left img{
   width:420px;
   height:420px;
-  border-radius:50%;
   object-fit:cover;
-  border:18px solid #f2c200;
-  box-shadow:0 25px 50px rgba(0,0,0,0.4);
+  border-radius:40px;
+  box-shadow:0 30px 60px rgba(0,0,0,0.35);
 }
 
-/* Cột nội dung bên phải */
-.about-content{
-  display:flex;
-  flex-direction:column;
-  gap:35px;
-  width:550px;
+/* Nội dung bên phải */
+.about-right{
+  max-width:650px;
 }
 
-/* Box nội dung */
-.about-box{
-  background:#f2d28b;
-  padding:30px;
-  border-radius:28px;
-  color:#162a5c;
+.about-right h1{
+  font-family:'Kavoon', cursive;
+  font-size:110px;
+  color:#f2d28b;
+  margin-bottom:40px;
+  line-height:1;
 }
 
-.about-box h3{
-  margin-top:0;
-  margin-bottom:15px;
-}
-
-.about-box p{
-  line-height:1.6;
+.about-right p{
+  font-size:20px;
+  line-height:1.8;
+  color:#f2d28b;
+  margin-bottom:40px;
 }
