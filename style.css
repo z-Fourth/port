@@ -162,11 +162,11 @@ nav a {
 
 .about{
   display:flex;
-  align-items:center;
+  align-items:flex-start;   /* QUAN TRỌNG */
   justify-content:center;
-  gap:60px;                 /* sát nhau hơn */
-  padding:30px 8% 0;        /* giảm mạnh padding trên */
-  height:calc(100vh - 70px); /* trừ nav */
+  gap:40px;                 /* giảm khoảng cách ngang thêm */
+  padding:30px 8% 0;
+  height:calc(100vh - 70px);
   box-sizing:border-box;
 }
 
@@ -191,17 +191,18 @@ nav a {
   gap:35px;
   width:600px;
 }
-
 /* Ô vàng */
 .about-box{
   background:#e7c98b;
   padding:35px 45px;
   border-radius:35px;
   color:#162a5c;
+  width:100%;
 }
 
 .about-box.wide{
   padding:40px 45px;
+  width:120%; 
 }
 
 .about-box h3{
