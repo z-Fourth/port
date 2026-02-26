@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("images/bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+nav a {
+  background: #f2d28b;
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #162a5c;
+  font-weight: bold;
+}
+
+/* GRID TRANG CHỦ */
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  gap: 40px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  background: #f2d28b;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #162a5c;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* TRANG CON */
+.page {
+  text-align: center;
+  padding: 80px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
